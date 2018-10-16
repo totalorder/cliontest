@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_library(ctest2 SHARED library.c library.h)
 add_executable(ctest1 main.c library.h)
+add_executable(child child.c)
 target_link_libraries (ctest1 ctest2)
