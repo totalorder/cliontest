@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "library.h"
 // https://github.com/ruslo/polly/issues/153
 // sudo apt-get install mingw-w64 g++-mingw-w64
 // sudo apt install wine-stable
@@ -8,5 +8,6 @@
 
 int main() {
     printf("Hello, World!\n");
+    hello_lib();
     return 0;
 }
